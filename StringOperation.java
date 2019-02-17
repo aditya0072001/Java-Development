@@ -8,7 +8,6 @@ public class StringOperation{
         Scanner input = new Scanner(System.in);
         String a[] = input.nextString(); 
         int b = input.nextInt(); 
-        int sum=a+b;
  
         System.out.println("Sum is "+sum);
     }
