@@ -10,6 +10,9 @@ public class Menu{
              case 2:
                 System.out.println("no");
                 break;
+             default:
+                System.out.println("Oh that is illegal sending your details to CBI........");
+                break;   
         }
     }
         public static void main(String[] args) {
