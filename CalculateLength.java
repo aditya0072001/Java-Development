@@ -13,7 +13,8 @@ public class CalculateLength{
                 String str=us.nextLine();
                 int length =str.length();
                 System.out.println("Length is "+length);
-                Reverse(str);     
+                Reverse(str);  
+                us.close();   
 
         }
 }

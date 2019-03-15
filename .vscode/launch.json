@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculateLength",
+            "request": "launch",
+            "mainClass": "CalculateLength",
+            "projectName": "Java-Development_ccc1425e"
+        }
+    ]
+}
