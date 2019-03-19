@@ -20,6 +20,7 @@ public class Menu{
                 System.out.println("Enter a choice");
                 int ch= mn.nextInt();
                 menu(ch);
+                mn.close();
                 
         }
 }
