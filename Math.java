@@ -12,7 +12,8 @@ public class Math{
                 for(int i=0;i<=n2;i++)
                         sum =sum+i;
 
-                System.out.println("Sum is"+sum);        
+                System.out.println("Sum is"+sum);
+                us.close();        
 
         }
 }

@@ -11,5 +11,6 @@ public class UserInput{
         int sum=a+b;
  
         System.out.println("Sum is "+sum);
+        input.close();
     }
 }

@@ -9,5 +9,6 @@ public class StringOperation{
         System.out.println(a);
         System.out.println(lengthstr);
         System.out.println(a.length());
+        input.close();
     }
 }
