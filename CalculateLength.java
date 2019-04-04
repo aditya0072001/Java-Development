@@ -15,6 +15,7 @@ public class CalculateLength{
                 System.out.println("Length is "+length);
                 Reverse(str);  
                 us.close();   
+                System.out.println("Hello");
 
         }
 }
