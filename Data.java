@@ -11,7 +11,7 @@ public class Data {
             try {
                 fw = new FileReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt");
 
-                for (; fw.read() != -1; ) {
+                while(fw.read()!=-1){
 
                     Temp+= String.valueOf((char)fw.read());
                     System.out.println(Temp);
