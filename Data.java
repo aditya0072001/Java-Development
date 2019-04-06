@@ -10,17 +10,15 @@ public class Data {
         {
             try {
                 fw = new FileReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt"); //Opening the file
-                for (;fw.read()!=-1; ) { //Reading file till the end
+               
+                for (;fw.read()!=-1; ) {
 
-                    if (fw.read() == ' ') {
-                        fw.close();
-                    } else {
-                        Temp = String.valueOf(fw.read()); //Store the value in Temp string
+                        Temp = String.valueOf(fw.read());
                     }
                 }
                 if (Username.equals(Temp)) {
-                    System.out.println("Verified"); //If succesfully verified
-                }
+                    System.out.println("Verified");
+
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
