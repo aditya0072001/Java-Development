@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Data {
     public static void main(String[] args) {
          String Username = "Admin1";
-         String Temp=" ";
+         String Temp="";
         FileReader fw;
         {
             try {
