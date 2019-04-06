@@ -1,33 +1,30 @@
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class Data {
     public static void main(String[] args) {
-         String Username = "Admin1";
-         String Temp="";
-         int ch;
+        String Username = "Admin1";
+        String Temp="";
+        String Line="";
+        int ch;
         FileReader fw;
+        BufferedReader bw;
         {
             try {
-                fw = new FileReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt");
+                bw= new BufferedReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt");
 
-                while((ch=fw.read())!=-1){
-
-                    Temp+= String.valueOf((char)ch);
-                    System.out.println(Temp);
-
+                while(Line=bw.readline()!="NULL"){
+                    System.out.println(Line);
                 }
-                    fw.close();
-                if (Username.equals(Temp)) {
-                    System.out.println("Verified");
 
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+}
 }
