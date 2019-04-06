@@ -15,7 +15,7 @@ public class Data {
             try {
                 bw= new BufferedReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt");
 
-                while(Line=bw.readline()!="NULL"){
+                while((Line=bw.readline())!=null){
                     System.out.println(Line);
                 }
 
