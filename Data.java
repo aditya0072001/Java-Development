@@ -17,6 +17,11 @@ public class Data {
 
                 while((Line=bw.readLine())!=null){
                     System.out.println(Line);
+
+                   if(Username.equals(Line)){
+                       System.out.println("Verified");
+                       break;
+                   }
                 }
 
 
