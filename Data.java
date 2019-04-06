@@ -13,7 +13,7 @@ public class Data {
         BufferedReader bw;
         {
             try {
-                bw= new BufferedReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt");
+                bw= new BufferedReader(new FileReader("C:\\Users\\aditya\\IdeaProjects\\Practise\\src\\Username.txt"));
 
                 while((Line=bw.readline())!=null){
                     System.out.println(Line);
